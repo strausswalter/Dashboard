@@ -1,0 +1,30 @@
+# Modelo do arquivo .env para ser sincronizado via GitHub 
+
+# APP
+PORT=3001
+
+# Relational database (mySQL)
+SQL_DB_USER='xxxxxxxxxxxxxx' 
+SQL_DB_PASS='xxxxxxxxxxxxxx' 
+SQL_DB_HOST='localhost' 
+SQL_DB_PORT=3306
+SQL_DB_NAME='xxxxxxxxxxxxxx'
+
+# NoSQL database:
+# Informações Mongo DB Atlas:
+NOSQL_DB_USER='xxxxxxxxxxxxxx' 
+NOSQL_DB_PASS='xxxxxxxxxxxxxx' 
+# Retirado do Mongo Atlas - Connect -  connect your application - node.js
+NOSQL_DB_HOST='cluster0.xxxxxxxxxxxxxx.mongodb.net' 
+NOSQL_DB_PORT=27017 
+NOSQL_DB_NAME='xxxxxxxxxxxxxx'
+
+# NODE
+NODE_ENV='development'
+
+# nodemailer:
+EMAIL='xxxxxxxxxxxxxx@gmail.com'
+MAIL_SENDER='xxxxxxxxxxxxxx@gmail.com'
+EMAIL_PASSWORD='Senha de App Google (gmail), ou de outro servidor de emails'  
+EMAIL_PORT=465
+EMAIL_SMTP='smtp.gmail.com'
